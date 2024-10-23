@@ -386,6 +386,10 @@ ul.hidden-menu a:hover {
   animation-direction: alternate;
 }
 
+.padding{
+  padding-bottom: 50px;
+}
+
 @keyframes move-scroll {
   100% {
     transform: translateY(20px);
@@ -1246,6 +1250,11 @@ transform: translateX(-50px);
     padding-bottom: 150px;
   }
 
+  .yourself{
+    flex-direction: column;
+    width: 95%;
+  }
+
   .service-contents{
     flex-direction: column-reverse;
   }
@@ -1256,6 +1265,10 @@ transform: translateX(-50px);
   }
   .service-item ul{
     text-align: center;
+  }
+
+  .service-img img{
+    height: 300px;
   }
 
   .works{
@@ -1317,6 +1330,7 @@ transform: translateX(-50px);
 
   .top-img{
     background-size: cover;
+    height: 400px;
   }
 
   .hero{
@@ -1325,6 +1339,7 @@ transform: translateX(-50px);
 
   .hero h1{
     font-size: 2rem;
+    padding-top: 100px ;
   }
 
   .hero h3{
@@ -1335,7 +1350,11 @@ transform: translateX(-50px);
   .hero h4{
     font-size: 1rem;
   }
-
+  
+  .yourself{
+    flex-direction: column;
+    width: 90%;
+  }
   .HTML-CSS {
     transition: opacity 1s, transform 1s;
   }
@@ -1372,6 +1391,10 @@ transform: translateX(-50px);
     text-align: center;
   }
 
+  .service-img img{
+    height: 350px;
+  }
+
   .works{
     flex-direction: column;
     align-items: center;
@@ -1395,12 +1418,16 @@ transform: translateX(-50px);
 
   
   .business-card{
-    width: 70%;
+    width: 90%;
     aspect-ratio: 16/10;
   }
 
   .instruction{
     left: 0;
+  }
+
+  .instruction h2{
+    font-size: 1.2rem;
   }
 
   .sns-icons {
