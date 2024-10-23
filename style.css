@@ -1151,6 +1151,30 @@ transform: translateX(-50px);
   .skill-list{
     width: 100%;
   }
+
+  .HTML-CSS {
+    transition: opacity 1s, transform 1s;
+  }
+  
+  .JavaScript {
+    transition: opacity 1s , transform 1s ;
+  }
+  
+  .php {
+    transition: opacity 1s .4s, transform 1s .4s;
+  }
+
+  .MySQL {
+    transition: opacity 1s .4s, transform 1s .4s;
+  }
+  
+  .git {
+    transition: opacity 1s 1s, transform 1s 1s;
+  }
+  
+  .WordPress {
+    transition: opacity 1s 1s, transform 1s 1s;
+  }
   .service-contents{
     flex-direction: column-reverse;
   }
@@ -1166,7 +1190,7 @@ transform: translateX(-50px);
   .works{
     flex-direction: column;
     align-items: center;
-    width: 80%;
+    width: 90%;
   }
 
   .first-work,
@@ -1186,6 +1210,13 @@ transform: translateX(-50px);
   .instruction{
     left:100px
   }
+
+  
+  .business-card{
+    width: 70%;
+    aspect-ratio: 16/10;
+  }
+
 
   .sns-icons {
     width: 30%;
@@ -1227,7 +1258,19 @@ transform: translateX(-50px);
     text-align: center;
   }
 
+  .works{
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+  }
+
+  .first-work,
+.second-work,
+.third-work {
+  width: 80%;
+}
   
+
 
   .works h2{
     font-size: 2rem;
@@ -1237,6 +1280,13 @@ transform: translateX(-50px);
     left: 20%;
     font-size: 2rem;
   }
+
+  
+  .business-card{
+    width: 70%;
+    aspect-ratio: 16/10;
+  }
+
 }
 
 
@@ -1286,6 +1336,30 @@ transform: translateX(-50px);
     font-size: 1rem;
   }
 
+  .HTML-CSS {
+    transition: opacity 1s, transform 1s;
+  }
+  
+  .JavaScript {
+    transition: opacity 1s , transform 1s ;
+  }
+  
+  .php {
+    transition: opacity 1s , transform 1s ;
+  }
+
+  .MySQL {
+    transition: opacity 1s , transform 1s 
+  }
+  
+  .git {
+    transition: opacity 1s , transform 1s 
+  }
+
+  .WordPress{
+    transition: opacity 1s , transform 1s 
+  }
+
   .service-contents{
     flex-direction: column-reverse;
   }
@@ -1298,14 +1372,38 @@ transform: translateX(-50px);
     text-align: center;
   }
 
-  
+  .works{
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+  }
+
+  .first-work,
+.second-work,
+.third-work {
+  width: 100%;
+}
 
   .works h2{
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 
   .works a>p{
     left: 20%;
-    font-size: 2rem;
+    font-size: 1.7rem;
+  }
+
+  
+  .business-card{
+    width: 70%;
+    aspect-ratio: 16/10;
+  }
+
+  .instruction{
+    left: 0;
+  }
+
+  .sns-icons {
+    width: 50%;
   }
 }
