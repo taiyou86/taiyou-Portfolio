@@ -946,11 +946,11 @@ transform: translateX(-50px);
 }
 
 .JavaScript {
-  transition: opacity 1s .5s, transform 1s .5s;
+  transition: opacity 1s .3s, transform 1s .3s;
 }
 
 .php {
-  transition: opacity 1s 1s, transform 1s 1s;
+  transition: opacity 1s .6s, transform 1s .6s;
 }
 
 .MySQL {
@@ -958,11 +958,11 @@ transform: translateX(-50px);
 }
 
 .git {
-  transition: opacity 1s .5s, transform 1s .5s;
+  transition: opacity 1s .3s, transform 1s .3s;
 }
 
 .WordPress {
-  transition: opacity 1s 1s, transform 1s 1s;
+  transition: opacity 1s .6s, transform 1s .6s;
 }
 
 
