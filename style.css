@@ -548,7 +548,7 @@ transform: translateX(-50px);
   flex-wrap: wrap;
 }
 
-.skill-list .HTML-CSS,
+.HTML-CSS,
 .JavaScript,
 .php,
 .MySQL,
@@ -1394,6 +1394,27 @@ transform: translateX(-50px);
   .service-img img{
     height: 350px;
   }
+
+  .skill-list{
+    width: 100%;
+  }
+
+.HTML-CSS,
+.JavaScript,
+.php,
+.MySQL,
+.git,
+.WordPress{
+  width: 160px;
+}
+
+.skill-list h2{
+  font-size: 1.5rem;
+}
+
+.skill-list p{
+  font-size: 0.9rem;
+}
 
   .works{
     flex-direction: column;
