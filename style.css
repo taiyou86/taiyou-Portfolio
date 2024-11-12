@@ -428,7 +428,7 @@ ul.hidden-menu a:hover {
 .yourself {
   display: flex;
   height: 100%;
-  width: 80%;
+  width: 75%;
   margin: 0 auto;
   margin-top: 70px;
   gap: 20px;
@@ -450,12 +450,13 @@ ul.hidden-menu a:hover {
 
 .image-left {
   flex: 1;
+  height:50%;
 }
 
 .image-left img {
   align-self: center;
   object-fit: cover;
-  height: 450px;
+  height: 400px;
   width: 100%;
 }
 
@@ -491,6 +492,7 @@ transform: translateX(-50px);
   color: var(--white-color);
   min-width: 440;
   height: 100%;
+  border-radius: 20px 20px 20px 20px ;
 }
 
 .name-header {
@@ -498,6 +500,7 @@ transform: translateX(-50px);
   padding: 15px 20px;
   font-size: 20px;
   font-weight: normal;
+  border-radius: 20px 20px 20px 20px ;
 }
 
 .profile-list {
@@ -1355,6 +1358,18 @@ transform: translateX(-50px);
     flex-direction: column;
     width: 90%;
   }
+
+  .yourself-left{
+    border-radius: 50%;
+    width: 100%;
+    height: 150px;
+  }
+  .yourself-left img{
+    border-radius: 50%;
+    height: 200px;
+    width: 50%;
+  }
+
   .HTML-CSS {
     transition: opacity 1s, transform 1s;
   }
